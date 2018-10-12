@@ -19,6 +19,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// app.get('/service-worker.js', function (req, res, next){
+//   res.sendFile(__dirname + '/service-worker.js');
+// });
+
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 

@@ -4,7 +4,7 @@
 	"display": "standalone",
 	"start_url": "./",
 	"icons": [{
-		"src": "icon144.png",
+		"src": "icon_skull.png",
 		"sizes": "144x144"
 	}]
 }
