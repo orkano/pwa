@@ -1,0 +1,10 @@
+{
+	"short_name": "e-app",
+	"name": "event-app",
+	"display": "standalone",
+	"start_url": "./",
+	"icons": [{
+		"src": "icon144.png",
+		"sizes": "144x144"
+	}]
+}
